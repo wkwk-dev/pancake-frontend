@@ -78,7 +78,14 @@ const StarsWrapper = styled.div`
 const imagePath = '/images/home/'
 const imageSrc = 'mu'
 
-
+const starsImage: CompositeImageProps = {
+  path: '/images/home/lunar-bunny/',
+  attributes: [
+    { src: 'star-l', alt: '3D Star' },
+    { src: 'star-r', alt: '3D Star' },
+    { src: 'star-top-r', alt: '3D Star' },
+  ],
+}
 
 const Hero = () => {
   const { t } = useTranslation()
@@ -123,7 +130,7 @@ const Hero = () => {
             <picture>
               <source type="image/webp" srcSet={getSrcSet(imagePath, imageSrc, '.webp')} />
               <source type="image/png" srcSet={getSrcSet(imagePath, imageSrc)} />
-              <img src={`${imagePath}${imageSrc}.png`} alt={t('Lunar bunny')} />
+              <img src={`${imagePath}${imageSrc}.png`} alt={t('mu')} />
             </picture>
           </BunnyWrapper>
           <StarsWrapper>
