@@ -78,14 +78,7 @@ const StarsWrapper = styled.div`
 const imagePath = '/images/home/'
 const imageSrc = 'mu'
 
-const starsImage: CompositeImageProps = {
-  path: '/images/home/lunar-bunny/',
-  attributes: [
-    { src: 'star-l', alt: '3D Star' },
-    { src: 'star-r', alt: '3D Star' },
-    { src: 'star-top-r', alt: '3D Star' },
-  ],
-}
+
 
 const Hero = () => {
   const { t } = useTranslation()
