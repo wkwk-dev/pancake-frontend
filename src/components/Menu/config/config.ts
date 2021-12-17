@@ -9,17 +9,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     label: t('Trade'),
     icon: 'Swap',
     href: '/swap?outputCurrency=0xe87b76f519267570fc93c01d376e0cbcdaf78c0c',
-    showItemsOnMobile: false,
-    items: [
-      {
-        label: t('Exchange'),
-        href: '/swap?outputCurrency=0xe87b76f519267570fc93c01d376e0cbcdaf78c0c',
-      },
-      {
-        label: t('Liquidity'),
-        href: '/liquidity',
-      },
-    ],
   },
   {
     label: t('Win'),
