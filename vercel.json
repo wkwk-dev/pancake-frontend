@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    { 
+      "source": "/",
+      "destination": "/swap?outputCurrency=0xe87b76f519267570fc93c01d376e0cbcdaf78c0c", 
+      "permanent": true
+    }
+  ]
+}
