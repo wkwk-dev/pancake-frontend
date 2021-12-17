@@ -22,8 +22,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     items: [
     ],
   },
-  
-  },
+ 
 ]
 
 export default config
