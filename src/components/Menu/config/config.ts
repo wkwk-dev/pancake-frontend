@@ -6,19 +6,19 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
-    label: t('Swap'),
+    label: t('Exchange'),
     icon: 'Swap',
     href: '/swap?outputCurrency=0xe87b76f519267570fc93c01d376e0cbcdaf78c0c',
-    showItemsOnMobile: false,
+    showItemsOnMobile: true,
     items: [
     ],
   },
 
     {
-    label: t('ADD Liquidity'),
+    label: t('Liquidity'),
     icon: 'Liquidity',
     href: '/liquidity',
-    showItemsOnMobile: false,
+    showItemsOnMobile: true,
     items: [
     ],
   },
