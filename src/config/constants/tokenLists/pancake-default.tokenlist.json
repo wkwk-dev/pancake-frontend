@@ -11,12 +11,12 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
-      "name": "WKWK.LAND",
-      "symbol": "WKND",
+      "name": "SHIBA INU",
+      "symbol": "SHIB",
       "address": "0x2859e4544c4bb03966803b044a93563bd2d0dd4d",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://ummah.finance/wp-content/uploads/2021/11/aa.png"
+      "logoURI": "https://bscscan.com/token/images/shibatoken_32.png"
     }
   ]
 }
